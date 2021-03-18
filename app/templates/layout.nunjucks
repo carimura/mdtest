@@ -1,0 +1,5 @@
+<h1>{{file.frontMatter.title}}</h1>
+
+<div class="date">{% block date %}{% endblock %}</div>
+
+<div>{% block text %}{% endblock %}</div>

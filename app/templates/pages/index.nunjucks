@@ -1,0 +1,9 @@
+{% extends "app/templates/layout.nunjucks" %}
+
+{% block date %}
+{{file.frontMatter.date}}
+{% endblock %}
+
+{% block text %}
+{{contents}}
+{% endblock %}
